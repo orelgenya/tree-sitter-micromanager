@@ -1,0 +1,24 @@
+{
+  "name": "tree-sitter-micromanager",
+  "version": "0.0.1",
+  "description": "Micromanager grammar for node-tree-sitter",
+  "main": "index.js",
+  "keywords": [
+    "parser",
+    "lexer"
+  ],
+  "scripts": {
+    "build": "tree-sitter generate && electron-rebuild -v 2.0.9",
+    "test": "tree-sitter parse ./sample.mman"
+  },
+  "author": "Evgenii Orel",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.11.1"
+  },
+  "devDependencies": {
+    "electron": "^3.0.10",
+    "electron-rebuild": "^1.8.2",
+    "tree-sitter-cli": "^0.13.10"
+  }
+}

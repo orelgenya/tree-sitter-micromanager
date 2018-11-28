@@ -1,0 +1,12 @@
+- #hypothesis #chosen
+- #problem Important question
+  - #hypothesis #chosen #anchor:123 Option 1
+  	- #argument #important Supporting argument
+  	- #argument Counter argument
+  		- #fact Fact
+  - #hypothesis #rejected Option 2 #ref:123
+  -
+  - 
+
+  - #x
+  - $54
